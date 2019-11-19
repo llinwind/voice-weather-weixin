@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "basic": "/components/weather/basic/index",
+        "show-model": "/components/show-model/index"
+    }
+}

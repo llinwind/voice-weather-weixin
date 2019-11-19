@@ -1,0 +1,55 @@
+.container {
+    height: 450rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.date-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.inputCity {
+    position: fixed;
+    bottom: 5rpx;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+    background-color:rgba(0,0,0,0);
+}
+
+.date {
+    width: 360rpx;
+    height: 120rpx;
+}
+
+.loading {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+
+/* .bottom{
+    position: static;
+    bottom: 100rpx;
+} */
+
+.noBottom{
+    position: fixed;
+    bottom: 0;
+}

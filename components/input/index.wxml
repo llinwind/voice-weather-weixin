@@ -1,0 +1,6 @@
+<view class="container">
+    <image src="{{flag?textImg:voiceImg}}" class="img" bind:tap="change"></image>
+    <input class="text {{flag?'notShow':''}}" placeholder="输入城市名获取天气" placeholder-class='placeholder-input' focus="{{focus}}" bind:confirm="onConfirm" adjust-position="{{false}}" bind:focus="foucus" bind:blur="blur" cursor-spacing="5" adjust-position="true"
+        fixed="true" value="{{inputValue}}"></input>
+    <button class="voice {{flag?'':'notShow'}}" bind:longpress="touchStart" bind:touchend="touchEnd" bind:touchmove="touchMove">按住 说话</button>
+</view>

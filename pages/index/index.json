@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "inputCity-cmp": "/components/input/index",
+        "date-cmp": "/components/date/index",
+        "today-cmp": "/components/weather/today/index",
+        "days-cmp": "/components/weather/days/index",
+        "loading-cmp": "/components/loading/index"
+    },
+    "enablePullDownRefresh": true
+}

@@ -1,0 +1,43 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.img {
+    width: 70rpx;
+    height: 70rpx;
+    margin: 5rpx 20rpx 0 20rpx;
+}
+
+.text {
+    width: 600rpx;
+    height: 80rpx;
+    border: 0.5rpx solid #000;
+    border-radius: 10rpx;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.voice {
+    width: 602rpx;
+    height: 82rpx;
+    border: 0.5rpx solid #000;
+    border-radius: 10rpx;
+    text-align: center;
+    line-height: 82rpx;
+    margin: 0;
+    padding: 0;
+}
+
+.notShow {
+    display: none;
+}
+
+.placeholder-input{
+    text-align: center;
+}

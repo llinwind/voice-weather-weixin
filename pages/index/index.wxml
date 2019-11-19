@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="date-container">
+        <date-cmp class="date" />
+    </view>
+    <today-cmp class="today" id="today-weather" />
+    <image class="background" src="../../image/background.jpg" mode="aspectFill"></image>
+</view>
+<loading-cmp class="loading" wx:if="{{loading}}" />
+<days-cmp days="{{days}}" city="{{city}}" />
+
+<inputCity-cmp class="inputCity {{bottomFlag?'bottom':'noBottom'}}" bind:touchStart="onVoiceStart" bind:touchEnd="onVoiceEnd" bind:touchMove="onVoiceCancel" bind:onConfirm="onConfirm" bind:foucus="foucus" bind:blur="blur" />

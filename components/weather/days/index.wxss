@@ -1,0 +1,29 @@
+.container {
+  margin-top: 50rpx;
+}
+
+.viewContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.basicContainer {
+  width: 180rpx;
+  height: 210rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.text {
+  font-size: 24rpx;
+}

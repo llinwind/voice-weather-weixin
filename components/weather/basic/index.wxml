@@ -1,0 +1,6 @@
+<view class="container">
+    <text class="text">{{day}}</text>
+    <image mode="aspectFit" src="{{temperatureICO}}" class="img"></image>
+    <text class="text">{{temperature}} </text>
+    <text class="text">{{weather}}</text>
+</view>

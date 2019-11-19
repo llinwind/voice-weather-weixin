@@ -1,0 +1,4 @@
+<view class="container">
+    <text>{{date}}</text>
+    <text>{{time}}</text>
+</view>

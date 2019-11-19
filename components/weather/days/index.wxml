@@ -1,0 +1,6 @@
+<view class="container">
+    <text>{{city}}</text>
+    <view class="viewContainer">
+        <basic container="basicContainer" img="img" text="text" wx:for="{{days}}" wx:key="{{index}}" day="{{item[0]}}" temperature="{{item[2]}}" weather="{{item[1]}}" />
+    </view>
+</view>

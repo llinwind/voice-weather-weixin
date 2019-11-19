@@ -1,0 +1,13 @@
+<view wx:if='{{showModal}}'>
+  <view class='mask_layer' bindtap='modal_click_Hidden' />
+  <view class='modal_box'>
+    <view class="title">打开设置界面</view>
+    <view class='content'>
+      <text class='modalMsg'>需要获取您的位置信息</text>
+    </view>
+    <view class='btn1'>
+      <view bindtap='modal_click_Hidden' class='cancel'>取消</view>
+      <button bindtap='Sure' class='Sure'>确定</button>
+    </view>
+  </view>
+</view>

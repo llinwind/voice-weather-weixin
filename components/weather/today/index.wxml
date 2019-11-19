@@ -1,0 +1,7 @@
+<view class="container" >
+    <text class="city">{{city}}</text>
+    <basic container="basicContainer" img="img" text="text" day="{{day}}" temperature="{{dayTemperature}}" weather="{{dayWeather}}" class="basic" />
+    <basic container="basicContainer" img="img" text="text" day="{{night}}" temperature="{{nightTemperature}}" weather="{{nightWeather}}" class="basic" />
+</view>
+
+<show-model showModal="{{showModal}}" bind:tap="onSure"/>
