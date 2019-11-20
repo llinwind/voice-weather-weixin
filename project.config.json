@@ -23,7 +23,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
-	"appid": "wx462fa6a0c1da7676",
+	"appid": "",
 	"projectname": "voice",
 	"debugOptions": {
 		"hidedInDevtools": []
